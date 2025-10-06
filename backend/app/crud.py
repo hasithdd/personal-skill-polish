@@ -1,10 +1,13 @@
 """CRUD operations for the skill tracker."""
-from typing import List, Optional
+
+from typing import Optional
+
 from sqlalchemy.orm import Session
+
 from backend.app import models, schemas
 
 
-def get_phases(db: Session, skip: int = 0, limit: int = 100) -> List[models.Phase]:
+def get_phases(db: Session, skip: int = 0, limit: int = 100) -> list[models.Phase]:
     """Get all phases."""
     return db.query(models.Phase).order_by(models.Phase.order).offset(skip).limit(limit).all()
 
@@ -67,9 +70,7 @@ def create_phase(db: Session, phase: schemas.PhaseCreate) -> models.Phase:
     return db_phase
 
 
-def update_phase(
-    db: Session, phase_id: int, phase: schemas.PhaseUpdate
-) -> Optional[models.Phase]:
+def update_phase(db: Session, phase_id: int, phase: schemas.PhaseUpdate) -> Optional[models.Phase]:
     """Update a phase."""
     db_phase = get_phase(db, phase_id)
     if not db_phase:
@@ -212,14 +213,10 @@ def delete_subtopic(db: Session, subtopic_id: int) -> bool:
     return True
 
 
-def get_mastery_component(
-    db: Session, mastery_id: int
-) -> Optional[models.MasteryComponent]:
+def get_mastery_component(db: Session, mastery_id: int) -> Optional[models.MasteryComponent]:
     """Get a mastery component by ID."""
     return (
-        db.query(models.MasteryComponent)
-        .filter(models.MasteryComponent.id == mastery_id)
-        .first()
+        db.query(models.MasteryComponent).filter(models.MasteryComponent.id == mastery_id).first()
     )
 
 

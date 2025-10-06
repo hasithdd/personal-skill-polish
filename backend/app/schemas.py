@@ -1,6 +1,8 @@
 """Pydantic schemas for API validation."""
+
 from datetime import datetime
-from typing import Optional, List
+from typing import Optional
+
 from pydantic import BaseModel, Field
 
 
@@ -86,8 +88,8 @@ class TopicBase(BaseModel):
 class TopicCreate(TopicBase):
     """Schema for creating a topic."""
 
-    subtopics: List[SubtopicCreate] = []
-    mastery_components: List[MasteryComponentCreate] = []
+    subtopics: list[SubtopicCreate] = []
+    mastery_components: list[MasteryComponentCreate] = []
 
 
 class TopicUpdate(BaseModel):
@@ -104,8 +106,8 @@ class Topic(TopicBase):
 
     id: int
     phase_id: int
-    subtopics: List[Subtopic] = []
-    mastery_components: List[MasteryComponent] = []
+    subtopics: list[Subtopic] = []
+    mastery_components: list[MasteryComponent] = []
     created_at: datetime
     updated_at: datetime
 
@@ -127,7 +129,7 @@ class PhaseBase(BaseModel):
 class PhaseCreate(PhaseBase):
     """Schema for creating a phase."""
 
-    topics: List[TopicCreate] = []
+    topics: list[TopicCreate] = []
 
 
 class PhaseUpdate(BaseModel):
@@ -145,7 +147,7 @@ class Phase(PhaseBase):
     """Schema for phase response."""
 
     id: int
-    topics: List[Topic] = []
+    topics: list[Topic] = []
     created_at: datetime
     updated_at: datetime
 
@@ -160,4 +162,4 @@ class ProgressStats(BaseModel):
     completed_phases: int
     total_progress: float
     total_xp: int
-    phases_progress: List[dict]
+    phases_progress: list[dict]

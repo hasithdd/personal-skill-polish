@@ -1,11 +1,12 @@
 """FastAPI main application."""
-from typing import List
-from fastapi import FastAPI, Depends, HTTPException
+
+
+from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 
 from backend.app import crud, schemas
-from backend.app.database import engine, Base, get_db
+from backend.app.database import Base, engine, get_db
 
 # Create database tables
 Base.metadata.create_all(bind=engine)
@@ -33,8 +34,10 @@ def read_root() -> dict:
 
 
 # Phase endpoints
-@app.get("/api/phases", response_model=List[schemas.Phase])
-def list_phases(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)) -> List[schemas.Phase]:
+@app.get("/api/phases", response_model=list[schemas.Phase])
+def list_phases(
+    skip: int = 0, limit: int = 100, db: Session = Depends(get_db)
+) -> list[schemas.Phase]:
     """List all phases."""
     phases = crud.get_phases(db, skip=skip, limit=limit)
     return phases
@@ -156,7 +159,9 @@ def delete_subtopic(subtopic_id: int, db: Session = Depends(get_db)) -> None:
 
 # Mastery component endpoints
 @app.get("/api/mastery/{mastery_id}", response_model=schemas.MasteryComponent)
-def get_mastery_component(mastery_id: int, db: Session = Depends(get_db)) -> schemas.MasteryComponent:
+def get_mastery_component(
+    mastery_id: int, db: Session = Depends(get_db)
+) -> schemas.MasteryComponent:
     """Get a specific mastery component."""
     mastery = crud.get_mastery_component(db, mastery_id=mastery_id)
     if mastery is None:
@@ -164,7 +169,9 @@ def get_mastery_component(mastery_id: int, db: Session = Depends(get_db)) -> sch
     return mastery
 
 
-@app.post("/api/topics/{topic_id}/mastery", response_model=schemas.MasteryComponent, status_code=201)
+@app.post(
+    "/api/topics/{topic_id}/mastery", response_model=schemas.MasteryComponent, status_code=201
+)
 def create_mastery_component(
     topic_id: int, mastery: schemas.MasteryComponentCreate, db: Session = Depends(get_db)
 ) -> schemas.MasteryComponent:

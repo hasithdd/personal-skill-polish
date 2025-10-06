@@ -1,16 +1,17 @@
 """CLI tool for offline skill tracking updates."""
+
 import json
-import yaml
 from pathlib import Path
 from typing import Optional
+
 import typer
+import yaml
 from rich.console import Console
 from rich.table import Table
 from sqlalchemy.orm import Session
 
-from backend.app.database import SessionLocal
-from backend.app import crud, schemas, models
-from backend.app.database import engine, Base
+from backend.app import crud, schemas
+from backend.app.database import Base, SessionLocal, engine
 
 app = typer.Typer(help="Personal Skill Polish CLI - Track your AI/ML learning journey")
 console = Console()
@@ -32,7 +33,7 @@ def init(
 ) -> None:
     """Initialize the skill tracker with roadmap data."""
     if roadmap_file and roadmap_file.exists():
-        with open(roadmap_file, "r") as f:
+        with open(roadmap_file) as f:
             if roadmap_file.suffix in [".yaml", ".yml"]:
                 data = yaml.safe_load(f)
             else:

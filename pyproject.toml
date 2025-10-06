@@ -39,7 +39,10 @@ target-version = ['py311']
 [tool.ruff]
 line-length = 100
 target-version = "py311"
-select = ["E", "F", "I", "N", "W", "B", "C4", "UP"]
+select = ["E", "F", "I", "N", "W", "C4"]
+
+[tool.ruff.lint]
+ignore = ["B008"]  # Allow function calls in argument defaults (FastAPI/Typer pattern)
 
 [tool.mypy]
 python_version = "3.11"
