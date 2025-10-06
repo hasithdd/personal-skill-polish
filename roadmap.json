@@ -1,0 +1,693 @@
+{
+  "phases": [
+    {
+      "title": "Core Computer Science Foundation",
+      "goal": "Master fundamental data structures, algorithms, and computational thinking",
+      "progress": 0.0,
+      "notes": "Foundation for all advanced topics",
+      "order": 1,
+      "xp": 0,
+      "topics": [
+        {
+          "name": "Data Structures",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Arrays and Lists", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Hash Tables", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Trees and Graphs", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Heaps and Priority Queues", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Implementation", "level": 0, "notes": ""},
+            {"name": "Time Complexity Analysis", "level": 0, "notes": ""},
+            {"name": "Space Optimization", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Algorithms",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Sorting and Searching", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Dynamic Programming", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Graph Algorithms", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Greedy Algorithms", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Problem Solving", "level": 0, "notes": ""},
+            {"name": "Optimization", "level": 0, "notes": ""},
+            {"name": "Complexity Analysis", "level": 0, "notes": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Python Engineering Mastery",
+      "goal": "Achieve expert-level Python skills for production systems",
+      "progress": 0.0,
+      "notes": "Critical for AI/ML development",
+      "order": 2,
+      "xp": 0,
+      "topics": [
+        {
+          "name": "Advanced Python Core",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Decorators and Metaclasses", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Generators and Iterators", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Context Managers", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Async/Await", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Language Internals", "level": 0, "notes": ""},
+            {"name": "Performance", "level": 0, "notes": ""},
+            {"name": "Best Practices", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "OOP and Design Patterns",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "SOLID Principles", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Creational Patterns", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Structural Patterns", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Behavioral Patterns", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Architecture Design", "level": 0, "notes": ""},
+            {"name": "Code Maintainability", "level": 0, "notes": ""},
+            {"name": "Refactoring", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Tooling and Environments",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Virtual Environments", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Package Management", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Testing (pytest, unittest)", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Linting and Formatting", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Development Workflow", "level": 0, "notes": ""},
+            {"name": "Quality Assurance", "level": 0, "notes": ""},
+            {"name": "CI/CD Integration", "level": 0, "notes": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Machine Learning Foundations",
+      "goal": "Build strong ML fundamentals from theory to practice",
+      "progress": 0.0,
+      "notes": "Core ML algorithms and concepts",
+      "order": 3,
+      "xp": 0,
+      "topics": [
+        {
+          "name": "Linear Models",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Linear Regression", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Logistic Regression", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Regularization (L1/L2)", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Feature Engineering", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Mathematical Foundation", "level": 0, "notes": ""},
+            {"name": "Implementation", "level": 0, "notes": ""},
+            {"name": "Model Evaluation", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Tree-Based Models",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Decision Trees", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Random Forests", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Gradient Boosting (XGBoost, LightGBM)", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Ensemble Methods", "level": 0, "notes": ""},
+            {"name": "Hyperparameter Tuning", "level": 0, "notes": ""},
+            {"name": "Feature Importance", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Neural Networks",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Perceptrons and MLPs", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Backpropagation", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Activation Functions", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Loss Functions", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Deep Learning Theory", "level": 0, "notes": ""},
+            {"name": "Training Techniques", "level": 0, "notes": ""},
+            {"name": "Debugging Models", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Optimization",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Gradient Descent Variants", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Adam, RMSprop", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Learning Rate Scheduling", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Optimization Theory", "level": 0, "notes": ""},
+            {"name": "Convergence Analysis", "level": 0, "notes": ""},
+            {"name": "Hyperparameter Selection", "level": 0, "notes": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Learning Engineering",
+      "goal": "Master modern deep learning architectures and deployment",
+      "progress": 0.0,
+      "notes": "Advanced neural network architectures",
+      "order": 4,
+      "xp": 0,
+      "topics": [
+        {
+          "name": "CNNs",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Convolution Operations", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Pooling Layers", "completed": 0, "notes": "", "xp": 0},
+            {"name": "ResNet, VGG, Inception", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Transfer Learning", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Computer Vision", "level": 0, "notes": ""},
+            {"name": "Model Architecture", "level": 0, "notes": ""},
+            {"name": "Fine-tuning", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "RNNs and LSTMs",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Sequence Modeling", "completed": 0, "notes": "", "xp": 0},
+            {"name": "LSTM and GRU", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Attention Mechanisms", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "NLP Fundamentals", "level": 0, "notes": ""},
+            {"name": "Sequential Data", "level": 0, "notes": ""},
+            {"name": "Time Series", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Transformers",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Self-Attention", "completed": 0, "notes": "", "xp": 0},
+            {"name": "BERT, GPT", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Vision Transformers", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Fine-tuning LLMs", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Transformer Architecture", "level": 0, "notes": ""},
+            {"name": "Pre-training", "level": 0, "notes": ""},
+            {"name": "Prompt Engineering", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Model Deployment",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Model Optimization (Quantization, Pruning)", "completed": 0, "notes": "", "xp": 0},
+            {"name": "ONNX and TensorRT", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Edge Deployment", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Production Readiness", "level": 0, "notes": ""},
+            {"name": "Performance Optimization", "level": 0, "notes": ""},
+            {"name": "Deployment Strategies", "level": 0, "notes": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Data Infrastructure",
+      "goal": "Build scalable data pipelines and infrastructure",
+      "progress": 0.0,
+      "notes": "Data engineering for ML systems",
+      "order": 5,
+      "xp": 0,
+      "topics": [
+        {
+          "name": "Data Lakes",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "S3, HDFS", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Data Formats (Parquet, Avro)", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Data Cataloging", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Storage Architecture", "level": 0, "notes": ""},
+            {"name": "Data Organization", "level": 0, "notes": ""},
+            {"name": "Cost Optimization", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "ETL Pipelines",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Apache Airflow", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Data Validation", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Data Quality", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Pipeline Design", "level": 0, "notes": ""},
+            {"name": "Orchestration", "level": 0, "notes": ""},
+            {"name": "Error Handling", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Streaming",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Kafka", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Stream Processing (Flink, Spark Streaming)", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Event-Driven Architecture", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Real-time Processing", "level": 0, "notes": ""},
+            {"name": "Streaming Analytics", "level": 0, "notes": ""},
+            {"name": "Fault Tolerance", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Databases",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "SQL (PostgreSQL, MySQL)", "completed": 0, "notes": "", "xp": 0},
+            {"name": "NoSQL (MongoDB, Redis)", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Vector Databases (Pinecone, Weaviate)", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Database Design", "level": 0, "notes": ""},
+            {"name": "Query Optimization", "level": 0, "notes": ""},
+            {"name": "Indexing Strategies", "level": 0, "notes": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ML Systems Engineering",
+      "goal": "Build production ML systems with proper MLOps practices",
+      "progress": 0.0,
+      "notes": "MLOps and production ML",
+      "order": 6,
+      "xp": 0,
+      "topics": [
+        {
+          "name": "Model Serving",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "FastAPI, Flask", "completed": 0, "notes": "", "xp": 0},
+            {"name": "TensorFlow Serving", "completed": 0, "notes": "", "xp": 0},
+            {"name": "TorchServe", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Model APIs", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "API Design", "level": 0, "notes": ""},
+            {"name": "Load Balancing", "level": 0, "notes": ""},
+            {"name": "Latency Optimization", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Feature Stores",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Feast", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Feature Engineering", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Feature Versioning", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Feature Management", "level": 0, "notes": ""},
+            {"name": "Feature Reusability", "level": 0, "notes": ""},
+            {"name": "Data Consistency", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Orchestration",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Kubeflow", "completed": 0, "notes": "", "xp": 0},
+            {"name": "MLflow", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Workflow Management", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Pipeline Orchestration", "level": 0, "notes": ""},
+            {"name": "Experiment Tracking", "level": 0, "notes": ""},
+            {"name": "Model Registry", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Versioning",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "DVC (Data Version Control)", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Model Versioning", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Reproducibility", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Version Control", "level": 0, "notes": ""},
+            {"name": "Lineage Tracking", "level": 0, "notes": ""},
+            {"name": "Experiment Management", "level": 0, "notes": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AI Infrastructure",
+      "goal": "Master GPU/TPU programming and distributed AI systems",
+      "progress": 0.0,
+      "notes": "Infrastructure for AI at scale",
+      "order": 7,
+      "xp": 0,
+      "topics": [
+        {
+          "name": "GPU/TPU Programming",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "CUDA Basics", "completed": 0, "notes": "", "xp": 0},
+            {"name": "CuDNN", "completed": 0, "notes": "", "xp": 0},
+            {"name": "TPU Optimization", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Hardware Acceleration", "level": 0, "notes": ""},
+            {"name": "Memory Management", "level": 0, "notes": ""},
+            {"name": "Kernel Optimization", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Distributed Computing",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Dask", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Ray", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Horovod", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Parallel Processing", "level": 0, "notes": ""},
+            {"name": "Distributed Training", "level": 0, "notes": ""},
+            {"name": "Resource Management", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Kubernetes",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Container Orchestration", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Helm Charts", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Operators", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Cluster Management", "level": 0, "notes": ""},
+            {"name": "Auto-scaling", "level": 0, "notes": ""},
+            {"name": "Service Mesh", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Cloud AI",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "AWS SageMaker", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Google Vertex AI", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Azure ML", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Cloud Architecture", "level": 0, "notes": ""},
+            {"name": "Cost Optimization", "level": 0, "notes": ""},
+            {"name": "Multi-cloud Strategy", "level": 0, "notes": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Advanced AI Architectures",
+      "goal": "Design and implement production-grade AI system architectures",
+      "progress": 0.0,
+      "notes": "System design and architecture",
+      "order": 8,
+      "xp": 0,
+      "topics": [
+        {
+          "name": "Microservices",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Service Decomposition", "completed": 0, "notes": "", "xp": 0},
+            {"name": "API Gateway", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Service Discovery", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Microservice Design", "level": 0, "notes": ""},
+            {"name": "Inter-service Communication", "level": 0, "notes": ""},
+            {"name": "Data Consistency", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "RPC and Messaging",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "gRPC", "completed": 0, "notes": "", "xp": 0},
+            {"name": "RabbitMQ", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Message Queues", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Communication Patterns", "level": 0, "notes": ""},
+            {"name": "Asynchronous Processing", "level": 0, "notes": ""},
+            {"name": "Message Reliability", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Observability",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Prometheus", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Grafana", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Distributed Tracing", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Logging", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Monitoring Strategy", "level": 0, "notes": ""},
+            {"name": "Alerting", "level": 0, "notes": ""},
+            {"name": "Performance Analysis", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Fault Tolerance",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Circuit Breakers", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Retry Patterns", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Graceful Degradation", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Resilience Design", "level": 0, "notes": ""},
+            {"name": "Error Handling", "level": 0, "notes": ""},
+            {"name": "Recovery Strategies", "level": 0, "notes": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AI Systems at Scale",
+      "goal": "Operate and optimize AI systems for massive scale and performance",
+      "progress": 0.0,
+      "notes": "Scaling and optimization",
+      "order": 9,
+      "xp": 0,
+      "topics": [
+        {
+          "name": "High Availability",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Load Balancing", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Failover Strategies", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Health Checks", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Availability Design", "level": 0, "notes": ""},
+            {"name": "Redundancy", "level": 0, "notes": ""},
+            {"name": "Disaster Recovery", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Scaling",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Horizontal Scaling", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Vertical Scaling", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Auto-scaling", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Capacity Planning", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Scalability Patterns", "level": 0, "notes": ""},
+            {"name": "Resource Optimization", "level": 0, "notes": ""},
+            {"name": "Performance Testing", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Latency Optimization",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Caching Strategies", "completed": 0, "notes": "", "xp": 0},
+            {"name": "CDN", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Request Batching", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Performance Optimization", "level": 0, "notes": ""},
+            {"name": "Profiling", "level": 0, "notes": ""},
+            {"name": "Bottleneck Analysis", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Resource Orchestration",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Resource Allocation", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Spot Instances", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Cost Management", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Resource Management", "level": 0, "notes": ""},
+            {"name": "Budget Optimization", "level": 0, "notes": ""},
+            {"name": "Infrastructure as Code", "level": 0, "notes": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AI Leadership & Strategy",
+      "goal": "Lead AI initiatives and design systems at an architectural level",
+      "progress": 0.0,
+      "notes": "Leadership and strategic planning",
+      "order": 10,
+      "xp": 0,
+      "topics": [
+        {
+          "name": "System Design Leadership",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Architecture Reviews", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Design Documentation", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Technical Debt Management", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Leadership Skills", "level": 0, "notes": ""},
+            {"name": "Decision Making", "level": 0, "notes": ""},
+            {"name": "Team Mentoring", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Roadmap Planning",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Technology Evaluation", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Strategic Planning", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Stakeholder Management", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Vision Setting", "level": 0, "notes": ""},
+            {"name": "Prioritization", "level": 0, "notes": ""},
+            {"name": "Communication", "level": 0, "notes": ""}
+          ]
+        },
+        {
+          "name": "Ethics and Responsible AI",
+          "progress": 0.0,
+          "notes": "",
+          "xp": 0,
+          "subtopics": [
+            {"name": "Bias Detection and Mitigation", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Fairness Metrics", "completed": 0, "notes": "", "xp": 0},
+            {"name": "Privacy and Security", "completed": 0, "notes": "", "xp": 0},
+            {"name": "AI Governance", "completed": 0, "notes": "", "xp": 0}
+          ],
+          "mastery_components": [
+            {"name": "Ethical AI", "level": 0, "notes": ""},
+            {"name": "Compliance", "level": 0, "notes": ""},
+            {"name": "Risk Management", "level": 0, "notes": ""}
+          ]
+        }
+      ]
+    }
+  ]
+}
